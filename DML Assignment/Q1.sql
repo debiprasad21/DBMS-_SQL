@@ -1,0 +1,1 @@
+SELECT * FROM campusx.insurance WHERE gender='male' AND region= 'Southwest'
