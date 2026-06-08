@@ -1,0 +1,2 @@
+-- Display the names of all countries that have won more than 50 medals in a single year.
+SELECT team,year,count(*) AS 'freq' FROM athlete_events WHERE medal is not null AND team is not null GROUP BY Team,Year HAVING freq>50 ORDER BY Year,team
