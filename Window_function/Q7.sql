@@ -1,0 +1,2 @@
+-- FIRST_VALUE
+SELECT *,FIRST_VALUE(name) OVER(ORDER BY marks desc) FROM s35.marks 
