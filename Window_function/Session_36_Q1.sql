@@ -1,0 +1,25 @@
+-- create table Marks and insert data
+
+CREATE TABLE s35.marks (
+student_id INTEGER PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(255),
+branch VARCHAR(255),
+marks INTEGER
+);
+INSERT INTO s35.marks (name,branch,marks) VALUES
+('Nitish', 'EEE',82),
+('Rishabh','EEE',91),
+('Anukant', 'EEE',69),
+('Rupesh', 'EEE',55),
+('Shubham','CSE',78),
+('Ved','CSE',43),
+('Deepak', 'CSE',98),
+('Arpan', 'CSE',95),
+('Vinay','ECE',95),
+('Ankit', 'ECE',88),
+('Anand','ECE',81),
+('Rohit', 'ECE',95),
+('Prashant', 'MECH',75),
+('Amit', 'MECH', 69),
+('Sunny','MECH',39),
+('Gautam','MECH',51);
